@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* CSS Reset Script */
+@import url("bowie2.css");
+
+/* Page Elements */
+
+body {
+	background-color:#a9a9a9;
+	background-image:url(../images/bg.png);
+	background-repeat:repeat-x;
+	display: block;
+
+}
+
+header {
+	background-image:url(../images/header.png);
+	background-repeat:no-repeat;
+	width:358px;
+	height:154px;
+	margin:auto;
+	display: block;
+}
+
+nav {
+	margin:11px auto;
+	width:358px;
+	padding:0;
+	white-space:nowrap;
+	list-style-type:none;
+	text-align:center;	
+}
+
+#wrapper {
+	margin:auto;
+	padding:15px;
+	width:358px;
+	text-align:center;
+}
+
+#leftcol {
+	float:left;
+	width:146px;
+	margin:0 0 10px 16px;
+}
+
+#rightcol {
+	float:left;
+	width:146px;
+	margin-bottom:10px;
+}
+
+#spacer {
+	float:left;
+	height:146px;
+	width:32px;
+}
+
+nav li {
+	display:inline;
+}
+
+article {
+	margin-top:15px;
+	padding:5px;
+	background-color:#3c4e5f;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+
+#content {
+	padding:5px;
+	background-color:#fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow:0px 0px 10px #717171; 
+	-moz-box-shadow:0px 0px 10px #717171; 
+	box-shadow:0px 0px 10px #717171;
+}
+
+#form {
+	text-align:left;
+	margin-left:15px;
+}
+
+.lable {
+	margin-top:10px;
+}
+
+.inputbox {
+	margin-bottom:15px;
+}
+
+footer {
+	clear:both;
+	text-align:center;
+	margin:auto;
+	height:30px;
+	width:324px;
+	background-color:#fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow:0px 0px 10px #717171; 
+	-moz-box-shadow:0px 0px 10px #717171; 
+	box-shadow:0px 0px 10px #717171;
+}
+
+#footerpadding {
+	padding-top:10px;
+}
+
+
+/* Typography */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#414141;
+	font-size:10px;
+}
+
+h1 {
+	font-size:14px;
+	text-shadow: -0px 1px 1px #a7a7a7;
+	font-weight: bold;
+	padding:10px 0 10px 0;
+}
+
+p {
+	text-shadow: -0px 1px 1px #a7a7a7;
+	padding-bottom:10px;
+
+}
+
+/* Link Typography */
+
+a {
+	color:#4b4b4b;
+	text-decoration:none;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#4b4b4b;
+	text-decoration:none;
+	text-decoration:underline;
+}
+
+
+nav li a	{
+	padding:0.2em 1em;
+	color:#cecece;
+	text-shadow: -0px -1px 1px #535353;
+	text-decoration:none;
+}
+
+nav li a:hover	{
+	color:#fff;
+	text-shadow: -0px -1px 1px #535353;
+	text-decoration:none;
+}
+	
+	

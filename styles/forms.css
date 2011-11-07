@@ -1,0 +1,37 @@
+body {
+	font-family: sans-serif;
+}
+
+#contain {
+	width: 318px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background: #ddd;
+}
+
+/* YAY STUFF FROM HERE IS THE FORM */
+
+#speedbook, #slowbook {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#speedbook input, #speedbook select, #slowbook input, #slowbook select {
+	display: block;
+	width: 200px;
+	font-size: 13px;
+}
+
+#speedbook div, #slowbook div {
+	margin: 10px 0;
+}
+
+#returncheck span {
+	display: block;
+}
+
+#returncheck input {
+	display: block;
+	float: left;
+	width: 20px;
+}

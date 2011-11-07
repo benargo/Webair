@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background: #328de1 
+	url(../images/gradbg.png) repeat-x;
+	min-height:100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#contall {
+	background-color:#FFF;
+	padding:10px;
+	margin:auto;
+	width:960px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	overflow:hidden;
+} 
+
+#customerdetailsform, #paymentform {
+	margin:0;
+	padding:0;
+}
+
+
+#customerdetailsform input, #paymentform input {
+	display:block;
+	margin:4px 0;
+	padding:4px;
+	width:250px;
+}
+
+#summarycont input {
+	width:45%;
+}
+
+#amendbooking, #login_unregistered, #login_registered {
+	margin: 0 auto;
+	width:200px;
+}
+
+#amendbooking input, #login_unregistered input, #login_registered inputs {
+	width:inherit;
+}
+	
+
+#customerdetailsform .check {
+	display:inline;
+	width:20px;
+	margin-left:10px;
+}
+
+#mainlogo {
+	float:left;
+	width:475px;
+	height:132px;
+	background-color:#DDD;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background: url(../images/navbannergrad.png) repeat-x;
+}
+
+#mainlogo h1 {
+	text-indent:-9001px;
+	background:url(../images/logo.png) no-repeat;
+	height:132px;
+	margin:0 auto;
+	padding:0;
+	width: 350px;
+}
+
+#mainheader {
+	height:137px;
+	padding: 0 0 5px 0;
+}
+
+#mainnav {
+	float:right;
+	width:475px;
+	height:150px;
+	background-color:#DDD;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+}
+
+#maincontent {
+	padding-top:2px;
+	float:left;
+	min-width:600px;
+	margin-top:-14px;
+}
+
+#sidecontent {
+	float:right;
+	min-width:300px;
+	padding:2px;
+	margin-top:-14px;
+}
+
+#mainfooter {
+	clear:both;
+	text-align:right;
+	padding-top:5px;
+	margin:auto;
+	width:960px;
+}
+
+#mainfooter p {
+	margin: 0;
+	padding: 0;
+}
+
+#mainfooter a {
+	color: #000;
+	text-decoration:none;
+}
+
+#mainfooter a:hover {
+	text-decoration:underline;
+}
+
+#sidecontent .advert {
+	margin: 10px 0 0 0;
+	padding:0;
+}
+
+.advert {
+	padding:12px 0 0 0;
+	margin-bottom:-6 px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.mainbox, .altbox {
+	background-color:#DDD;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	margin-top:-22px;	
+	margin-bottom:10px;
+	padding:0px 5px 5px 5px;
+	border:1px solid #ccc;
+	overflow:auto;
+}
+
+.mainbox {
+	width:606px;
+}
+
+
+.altbox {
+		width:318px;
+}
+
+.altbox p {
+		color:#000;		
+}
+
+p {
+	font-size:16px;
+	color:#000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#luggage, #insurance, #speedyboarding, #carbon {
+	clear:both;
+}
+
+#submitluggage {
+	width:107px;
+}
+
+#submitinsurance {
+	width:245px;
+}
+
+#submitspeedyboarding {
+	width: 252px;
+}
+
+#submitcarbon {
+	width: 280px;
+}
+
+h2 {
+	
+	background: #0088ee url(../images/headinggrad.gif) repeat-x;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;	
+	
+	margin-top:12px;
+	
+	padding-left:10px;
+	padding-bottom:10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	background-color:#ddd;
+}
+
+#maincontent h2 {
+	margin-top:5px;
+}
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:#000;
+	padding:0;
+	margin-bottom:-10px;
+}
+
+.mainbox h3 {
+	margin-top:0px;
+	padding:0;
+}
+
+.altbox h5 {
+	margin: 5px 0;
+	padding:0;
+	font-size:16px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#flightsummary p {
+	margin: 0;
+	padding: 0;
+}
+
+#flightsummary .airport {
+	font-weight:bold;
+}
+
+#flightprice, #extrasprice, #totalprice {
+	font-size:24px;
+}
+
+#flightprice:before, #extrasprice:before, #totalprice:before {
+	content: '£';	
+}
+
+.il {
+	display:inline;
+}
+
+
+div .price {
+	float:left;
+	margin: 20px 20px 0 0;
+	width:120px;
+	min-height:100%;
+	text-align:center;
+}
+
+
+#registered {
+	width:48%;
+	float:left;
+}
+
+#unregistered {
+	width:48%;
+	float:right;
+}
+
+div .price h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:48px;
+	text-shadow: #555 0 1px 1px;
+	color: #328DE1;
+	margin: 0;
+	padding: 0;
+}
+
+.infoboxtext {
+	float:left;
+	width:450px;
+}
+
+div .price h5 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color: #328DE1;
+	margin: -5px 0 0 0;
+	padding: 0;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+form span {
+	font-family: Helvetica, Arial,sans-serif;
+	font-size:16px;
+}
+
+#sessionexpired {
+	margin:-2px 0 9px 0;
+	padding: 1px 0 0 0;
+	-moz-border-radius: 10px;
+	background: url("../images/warning.png") no-repeat 10px;
+	background-color:red;
+	height:55px;
+}
+
+
+#sessionexpired p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:22px;
+	margin-top: 13px;
+	padding:0px 5px 5px 5px;
+	color:#fff;
+	text-align:right;
+}
+
+/*speedbooks*/
+
+#speedbook, #slowbook {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#slowbook, .nojs #speedbook {
+	display:none;
+}
+
+.nojs #slowbook {
+	display:block;
+}
+
+#speedbook, #slowbook {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#speedbook input, #speedbook select, #slowbook input, #slowbook select {
+	display: block;
+	width: 200px;
+	font-size: 13px;
+}
+
+#speedbook div, #slowbook div {
+	margin: 10px 0;
+}
+
+#returncheck span {
+	display: block;
+}
+
+#returncheck input {
+	display: block;
+	float: left;
+	width: 20px;
+}
+
+/*Main navigation */
+
+#mainnav {
+	background: url(../images/navbannergrad.png) repeat-x;
+	height:132px;
+}
+
+#mainnav ul {
+	width: 432px;
+	height: 120px;
+	font-family: Helvetica, Arial,sans-serif;
+	margin:0 auto;
+	padding: 0;
+}
+
+#mainnav ul li a {
+	width: 100px;
+	height: 10px;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top:105px;
+	color:white;
+}
+
+#mainnav ul a:link, #mainnav ul a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#mainnav ul li {
+	margin: 0 4px;
+	width: 100px;
+	height: 132px;
+	display: block;
+	float:left;
+	background-position: bottom;
+	list-style:none;
+	color:white;
+}
+
+#mainnav ul li:hover {
+	background-position: top;
+}
+
+#mainnav ul .home {
+	background-image: url(../images/navhome.png);
+}
+#mainnav ul .about {
+	background-image: url(../images/navabout.png);
+}
+#mainnav ul .book {
+	background-image: url(../images/navbook.png);
+}
+#mainnav ul .login {
+	background-image: url(../images/navlogin.png);
+}
